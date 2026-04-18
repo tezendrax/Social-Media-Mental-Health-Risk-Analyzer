@@ -8,7 +8,7 @@ take raw text → convert it into features → train ML models → see what actu
 
 🎯 Goal
 
-The goal is not just to build a model, but to explore how far basic machine learning can go in detecting mental health-related patterns in text data.
+The goal is not just to build a model, but to explore how far machine learning algo's can go in detecting mental health-related patterns in text data.
 
 ❗ Problem in simple terms
 

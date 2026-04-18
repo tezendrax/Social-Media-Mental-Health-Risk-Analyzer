@@ -6,7 +6,7 @@ This project is an attempt to understand whether patterns in social media text c
 
 Instead of overcomplicating things, the focus here is simple: take raw text → convert it into meaningful features → train ML models → and see what actually works and what doesn’t.
 
-##  Goal
+##    Goal
 
 The overarching goal isn't merely to build another machine learning model, but to explore and understand how far algorithms can go in detecting mental health-related patterns in text data.
 

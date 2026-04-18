@@ -1,5 +1,5 @@
 # Social Media Mental Health Risk Analyzer (ML Approach)
-📌 What this project is about
+  What this project is about
 
 This project is an attempt to understand whether patterns in social media text can indicate signs of mental stress or risk.
 

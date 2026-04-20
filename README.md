@@ -132,14 +132,6 @@ project/
 │── README.md
 ```
 
-## ⚠️ Important Note
-
-This is purely a **learning and exploration project**, not a formalized medical tool.
-
-Mental health is highly complex, and this model:
-- **Cannot** replace mental health professionals.
-- **Should not** be used for any real-world diagnoses or decisions.
-
 ## 🚀 Final Thought
 
 This project is less about “building something impressive” and more about actually understanding how machine learning behaves when faced with real, messy, and nuanced human data.

@@ -20,9 +20,15 @@ This entire architecture is built to run locally on a student's consumer-grade l
 
 ---
 
-## 2. Research Problem Statement & Literature Gap
+## 2. Problem Statement
 
-### The Core Problem:
+Students today face multiple challenges, including academic pressure, career uncertainty, loneliness, emotional stress, social comparison, sleep imbalance, and personal difficulties. While mental wellness applications and AI chatbots exist, most solutions are generic, reactive, and not specifically designed for the unique needs of students.
+
+Current platforms often provide isolated features such as chatbot conversations, mood tracking, meditation, or professional counseling, but they rarely offer a personalized, student-centric support system that understands academic contexts, tracks emotional patterns over time, provides actionable guidance, and connects students with appropriate support when needed.
+
+As a result, many students struggle to access timely, personalized, and continuous support for their emotional well-being and personal growth.
+
+### The R&D Literature & Tech Gap:
 Conventional wellness platforms fail in academic environments due to three primary limitations:
 * **The Context Gap:** They lack integration with academic milestones. An exam in two days behaves differently than standard daily stress, requiring distinct behavioral recommendations.
 * **The "Silent Distress" Gap:** Students experiencing cognitive exhaustion rarely state *"I am clinically depressed."* Instead, they write expressions of low energy (*"I'm too tired,"* *"Nothing is going right"*). Standard keyword filters miss these implicit signals.

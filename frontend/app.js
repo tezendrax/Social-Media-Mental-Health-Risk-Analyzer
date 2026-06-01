@@ -27,7 +27,10 @@ const WELLBEING_STATUS = [
     {max:100,label:"Excellent",color:"#10b981"},
 ];
 const GAUGE_LEN = 251.2, RING_LEN = 201.06;
-const API = 'http://127.0.0.1:8000';
+// Auto-detect API base: relative path on Vercel, localhost in dev
+const API = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+    ? 'http://127.0.0.1:8000'
+    : '';  // empty string = relative paths (same origin on Vercel)
 const $ = id => document.getElementById(id);
 
 let selectedPlatform = 'generic', sessionAnalyses = 0;

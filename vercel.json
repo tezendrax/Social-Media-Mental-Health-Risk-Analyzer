@@ -1,0 +1,51 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/index.py",
+      "use": "@vercel/python"
+    },
+    {
+      "src": "frontend/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "api/index.py"
+    },
+    {
+      "src": "/analyze",
+      "dest": "api/index.py"
+    },
+    {
+      "src": "/status",
+      "dest": "api/index.py"
+    },
+    {
+      "src": "/signals",
+      "dest": "api/index.py"
+    },
+    {
+      "src": "/history",
+      "dest": "api/index.py"
+    },
+    {
+      "src": "/stats",
+      "dest": "api/index.py"
+    },
+    {
+      "src": "/",
+      "dest": "frontend/index.html"
+    },
+    {
+      "src": "/styles.css",
+      "dest": "frontend/styles.css"
+    },
+    {
+      "src": "/app.js",
+      "dest": "frontend/app.js"
+    }
+  ]
+}

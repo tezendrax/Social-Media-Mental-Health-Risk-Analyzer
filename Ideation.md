@@ -1,5 +1,5 @@
 # Academic R&D Project Proposal
-## AegisMind: A Proactive, Local AI-Driven Student Wellness Companion & Predictive Burnout Modeling Platform
+## WellMate: A Proactive, Local AI-Driven Student Wellness Companion & Predictive Burnout Modeling Platform
 
 * **Project Type:** Advanced B.Tech / M.Tech / MCA Capstone Project (Research & Development Focus)
 * **Target Domain:** Applied Machine Learning, Natural Language Processing, Human-Computer Interaction (HCI) in Digital Health
@@ -11,7 +11,7 @@
 ## 1. Project Abstract
 University students face an unprecedented combination of academic pressures, career uncertainties, sleep disruption, and social comparison. Existing mental wellness applications (e.g., generic mood trackers, mindfulness apps) are highly **reactive** and **academically isolated**—they rely on manual user self-reporting and ignore academic cycles (such as exam timetables, assignment deadlines, or placement drives). 
 
-**AegisMind** is a novel, proactive, and privacy-preserving R&D platform designed specifically for the student demographic. It integrates:
+**WellMate** is a novel, proactive, and privacy-preserving R&D platform designed specifically for the student demographic. It integrates:
 1. An NLP-based **Silent Distress Detection Engine** that monitors unstructured personal journals for low-arousal, low-valence depressive markers using local sentiment classifiers.
 2. A **Student Digital Twin Engine** that models student behavior dynamically using lightweight Machine Learning to forecast burnout 5 to 7 days in advance.
 3. An interactive **Future Self Simulator** that models behavioral choices as divergent paths (Habit Decline vs. Recovery Mission Adherence) to encourage positive cognitive shifts.
@@ -157,7 +157,7 @@ The research project is structured across a **12-week academic timeline** divide
 
 ```mermaid
 gantt
-    title AegisMind Academic Project Timeline
+    title WellMate Academic Project Timeline
     dateFormat  YYYY-MM-DD
     section Phase 1: Foundational Database & Backend API
     Database Schema Configuration & FastAPI Setup :active, p1, 2026-06-01, 2026-06-15

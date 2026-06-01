@@ -1,12 +1,4 @@
-# Academic R&D Project Proposal
 ## WellMate: A Proactive, Local AI-Driven Student Wellness Companion & Predictive Burnout Modeling Platform
-
-* **Project Type:** Advanced B.Tech / M.Tech / MCA Capstone Project (Research & Development Focus)
-* **Target Domain:** Applied Machine Learning, Natural Language Processing, Human-Computer Interaction (HCI) in Digital Health
-* **Academic Supervised Proposal for:** [Student Name / Intern]  
-* **Resource Cost Structure:** 100% Free, Local-First, and Offline-Deployable
-
----
 
 ## 1. Project Abstract
 University students face an unprecedented combination of academic pressures, career uncertainties, sleep disruption, and social comparison. Existing mental wellness applications (e.g., generic mood trackers, mindfulness apps) are highly **reactive** and **academically isolated**—they rely on manual user self-reporting and ignore academic cycles (such as exam timetables, assignment deadlines, or placement drives). 

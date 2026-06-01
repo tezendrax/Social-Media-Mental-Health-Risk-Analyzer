@@ -1,16 +1,16 @@
 # Social Media Mental Health Risk Analyzer
 
-## 📖 What this project is about
+## What this project is about
 
 This project is an attempt to understand whether patterns in social media text can indicate signs of mental stress or risk.
 
 Instead of overcomplicating things, the focus here is simple: take raw text → convert it into meaningful features → train ML models → and see what actually works and what doesn’t.
 
-## 🎯 Goal
+## Goal
 
 The overarching goal isn't merely to build another machine learning model, but to explore and understand how far algorithms can go in detecting mental health-related patterns in text data.
 
-## ❗ The Problem in Simple Terms
+## The Problem in Simple Terms
 
 People rarely say explicitly, “I am depressed,” on social media. They express it indirectly—through their tone, word choice, and behavioral patterns.
 
@@ -21,7 +21,7 @@ The challenge is:
 
 So, the idea is to treat this as a text classification problem and see if Machine Learning can successfully pick up these subtle patterns.
 
-## 🏗️ Architecture & Pipeline
+## Architecture & Pipeline
 
 Here is a high-level overview of the data pipeline:
 
@@ -63,7 +63,7 @@ flowchart TD
     end
 ```
 
-## ⚙️ How I am Approaching It
+## How I am Approaching It
 
 This project follows a very practical, step-by-step pipeline:
 
@@ -80,7 +80,7 @@ This project follows a very practical, step-by-step pipeline:
    - **Recall** (Crucial: missing a risky case is far worse than a false alarm)
    - **Confusion Matrix**
 
-## 💻 Tech Stack
+## Tech Stack
 
 - **Language:** Python
 - **Data Processing:** Pandas, NumPy
@@ -88,7 +88,7 @@ This project follows a very practical, step-by-step pipeline:
 - **Machine Learning:** Scikit-learn
 - **Data Visualization:** Matplotlib, Seaborn
 
-## 🧠 What I Actually Want to Learn
+## What I Actually Want to Learn
 
 This project is more about the "why" and "how" than just the final product. Some questions I aim to answer:
 
@@ -98,7 +98,7 @@ This project is more about the "why" and "how" than just the final product. Some
 - Which model handles noisy text better?
 - Where do the models consistently fail?
 
-## 🔍 Observations (What I Will Focus On)
+## Observations (What I Will Focus On)
 
 While working, I’ll track:
 - Common words/features in risky vs. normal text.
@@ -108,7 +108,7 @@ While working, I’ll track:
 
 A model with good accuracy but absolutely no logical sense is useless in this context.
 
-## 📈 Expected Outcome
+## Expected Outcome
 
 By the end, this project will realistically provide:
 - A working, end-to-end ML pipeline for text classification.
@@ -117,7 +117,7 @@ By the end, this project will realistically provide:
 
 Not aiming for perfection—aiming for clarity and understanding.
 
-## 🧱 Project Structure
+## Project Structure
 
 ```text
 project/
@@ -132,7 +132,7 @@ project/
 │── README.md
 ```
 
-## ⚠️ Important Note
+## Important Note
 
 This is purely a **learning and exploration project**, not a formalized medical tool.
 
@@ -140,6 +140,3 @@ Mental health is highly complex, and this model:
 - **Cannot** replace mental health professionals.
 - **Should not** be used for any real-world diagnoses or decisions.
 
-## 🚀 Final Thought
-
-This project is less about “building something impressive” and more about actually understanding how machine learning behaves when faced with real, messy, and nuanced human data.
